@@ -1,7 +1,13 @@
+import React from 'react';
+import * as  Styled from './styles';
+import Header from '../../Componetes/Header'
 
-
-function Home () {
-  return <h1> voce esta na primeira pagina</h1>
+ function Home () {
+  return (
+    <Styled.CONTAINER>
+    <Header />
+</Styled.CONTAINER>
+  )
 }
 
 export default Home;
